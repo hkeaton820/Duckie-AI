@@ -83,7 +83,6 @@ export default function Chat() {
           id: `err_${Date.now()}`,
           role: "assistant",
           content: isLimitError
-            ? "🚫 Quack! I've hit my monthly AI usage limit. The app owner needs to upgrade their plan to keep chatting."
             : "😔 Something went wrong. Please try again in a moment.",
         },
       ]);
